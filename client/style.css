@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Areeb;
+    src: url(Images/AreebFontRegular.otf);
+}
+@font-face {
+    font-family: Areeb-bold;
+    src: url(Images/Areeeb-Bold.otf);
+}
+
+body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.header-links
+{
+    margin-top: 1vw;
+    margin-right: 3vw;
+}
+#title
+{
+    position:absolute;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    text-align: left;
+    justify-self: left;
+    font-family: Areeb-Bold;
+    font-size: 3vw;
+    left: 0px;
+}
+#header-wrapper
+{
+    overflow: hidden;
+    background-color: #77f363;
+    width: 100vw;
+    height: 5vw;
+
+    border-color: black;
+    border-bottom-style: solid;
+
+    border-bottom-width: 0.3vw;
+    text-align: right;
+    font-size: 3vw;
+    display: flex;
+    column-gap: 20px;
+    justify-content:flex-end;
+    font-family: Areeb-bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#highlander
+{
+    position: absolute;
+    left: 23vw;
+    top: 18vw;
+    height: 23vw;
+}
+#computer
+{
+    position: absolute;
+    right: 7vw;
+    top: 10vw;
+    height: 23vw;
+}
+#keyboard
+{
+    position: absolute;
+    left: 41vw;
+    top: 22vw;
+    height: 23vw;
+}
+
+#experiment-wrapper
+{
+    overflow-y: scroll;
+    position: relative;
+    margin: 5vw;
+    height: 50vw;
+    background-color: none;
+    display: flex;
+    top:45vw;
+}
+
+.experiment-card
+{
+    width: 24vw;
+    height: 12vw;
+    justify-content: right;
+    justify-items: right;
+    border-style: solid;
+    border-width: 0.3vw;
+    margin: 5vw;
+    display: flex;
+
+}
+.experiment-card-thumbnail
+{
+    position: absolute;
+    margin: 1vw;
+    width: 10vw;
+    height: 10vw;
+    left: 5vw;
+    
+    
+}
+.experiment-card-title
+{
+    font-family: Areeb-bold;
+    font-size: 2vw;
+    text-align: left;
+}
+.experiment-card-body
+{
+    
+    font-family: Areeb;
+    font-size: 1.5vw;
+
+    text-align: left;
+}
+.experiment-card-button
+{
+    font-family: Areeb-bold;
+    font-size: 2vw;
+    text-align: center;
+    background-color: #77f363;
+    border-color: black;
+    border-style: solid;
+    border-radius: 16px;
+    width: 10vw;
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    
+    width: 50%;
+    height: 80%;
+    right: 0px;
+    top: 1vw;
+}
+
+#experiment-header
+{
+    position: absolute;
+    
+    left: 11vw;
+    top: 45vw;
+    font-size: 3vw;
+    
+}
+.quote-of-the-day
+{
+    width: 24vw;
+    height: 12vw;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-radius: 32px;
+    position: relative;
+    margin: 5vw;
+}
+.quote-container
+{
+    position: absolute;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+span
+{
+    font-family: Areeb;
+}
